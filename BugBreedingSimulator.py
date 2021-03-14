@@ -8,6 +8,7 @@ import random
 sizemutation = False
 strmutation = False
 intmutation = False
+#
 #Bug Class
 class Bug:
     def __init__(self, size, strength, intelligence):
