@@ -8,7 +8,6 @@ import random
 sizemutation = False
 strmutation = False
 intmutation = False
-#
 #Bug Class
 class Bug:
     def __init__(self, size, strength, intelligence):
@@ -82,7 +81,7 @@ elif p1.intelligence > p2.intelligence:
         intmutation = True
     elif mfactor <= 5:
          intelligence = random.randint(p2.intelligence-10, p2.intelligence)
-         intmutation = True2
+         intmutation = True
          
          
 print('Parent 1:')
