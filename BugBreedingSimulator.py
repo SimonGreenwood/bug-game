@@ -20,7 +20,7 @@ p1 = Bug(50,70,30)
 p2 = Bug(50,30,70)
 
 #creates child stats
-
+#
 mfactor = random.randint(1,100)
 if p1.size < p2.size:
     size = random.randint(p1.size, p2.size)
